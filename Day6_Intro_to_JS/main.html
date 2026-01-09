@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+    </script>
+    <script src=""></script>
+</head>
+<body>
+
+     <button id="myButton">Click Me</button>
+    <p id="message"></p>
+
+    <script>
+      document
+        .getElementById("myButton")
+        .addEventListener("click", function () {
+          document.getElementById("message").innerHTML = "Button was clicked!";
+        });
+
+        let number = [1,2,3,4,5]
+        let mixArray = [10, 'helo', true]
+        let fruits = ["Apple", "Banana", "Cherry"];
+        console.log(fruits[1])
+
+        let person = {
+            name: "Ram",
+            age: 24,
+            city: "Delhi"
+        };
+
+        console.log(person.name)
+        person.age = 31
+        person.occupation = 'Engineer'
+        delete person.city
+
+
+        let str = "Hello world"
+        console.log(str.length);
+        console.log(str.charAt(0));
+        console.log(str.toUpperCase());
+
+    </script>
+
+    <!-- <p></p>
+    <script>
+        function greet(){
+            alert("hello everyone")
+        }
+    </script>
+    <h2>
+
+    </h2>
+    <p></p>
+    <a href=""></a> -->
+    <!-- <script>
+
+        document.getElementById('name').innerHTML = "hello World!"
+        document.getElementById('name').style.backgroundColor = "red"
+        document.getElementById('name').style.color = "white"
+        console.error -->
+    <!-- </script> -->
+</body>
+</html>
